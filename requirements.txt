@@ -1,0 +1,9 @@
+streamlit
+python-dotenv
+groq
+scikit-learn
+pandas
+joblib
+matplotlib
+seaborn
+sentence-transformers
