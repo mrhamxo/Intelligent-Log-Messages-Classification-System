@@ -33,6 +33,12 @@ This project implements an intelligent log classification system combining rule-
 | **Visual Dashboard**   | Interactive charts showing category distribution and source breakdown       |
 | **Debug Mode**         | Technical insights into classification pipeline and performance metrics     |
 
+## Screenshot
+
+![Image](https://github.com/user-attachments/assets/b5103469-df2b-4189-babf-58ea03456fa9)
+
+![Image](https://github.com/user-attachments/assets/9cada9d2-248a-445c-b602-935f13bb042f)
+
 ## 🧠 Classification Pipeline
 
 1. **Regex Filter**  
