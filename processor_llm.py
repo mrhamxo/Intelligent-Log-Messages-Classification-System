@@ -3,14 +3,18 @@ from groq import Groq
 import json
 import re
 import os
-
+import streamlit as st
 
 load_dotenv()
-# Get the API key from the environment variable
-api_key = os.getenv("GROQ_API_KEY")
 
+# First try to get from Streamlit secrets (Streamlit Cloud)
+api_key = st.secrets.get("GROQ_API_KEY", None)
 
-# Pass it to the Groq client
+# Fallback to .env for local development
+if not api_key:
+    api_key = os.getenv("GROQ_API_KEY")
+
+# Initialize the Groq client
 groq = Groq(api_key=api_key)
 
 def classify_with_llm(log_msg):
