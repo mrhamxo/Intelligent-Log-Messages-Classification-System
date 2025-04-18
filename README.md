@@ -35,9 +35,9 @@ This project implements an intelligent log classification system combining rule-
 
 ## Screenshot
 
-![Image](https://github.com/user-attachments/assets/b5103469-df2b-4189-babf-58ea03456fa9)
-
 ![Image](https://github.com/user-attachments/assets/9cada9d2-248a-445c-b602-935f13bb042f)
+
+![Image](https://github.com/user-attachments/assets/b5103469-df2b-4189-babf-58ea03456fa9)
 
 ## 🧠 Classification Pipeline
 
