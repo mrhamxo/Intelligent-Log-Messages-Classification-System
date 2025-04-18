@@ -1,5 +1,7 @@
 # Intelligent Log Message Classification System
 
+![Live Project](https://log-messages-classification.streamlit.app/)
+
 This project implements an intelligent log classification system combining rule-based regex patterns, BERT embeddings  with sklearn algorithm, and large language models (LLMs) to automatically categorize IT system logs into actionable categories like workflow errors or deprecation warnings. The Streamlit-based interface enables both batch CSV processing and real-time log analysis, featuring interactive visualizations for insights into classification patterns and a debug mode for technical validation. By leveraging multiple AI techniques in a tiered approach, it balances speed and accuracy, automating log analysis while providing developers and system administrators with clear, categorized insights for faster troubleshooting and system monitoring.
 
 ## 🌟 Features
